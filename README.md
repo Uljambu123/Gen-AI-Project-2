@@ -41,20 +41,19 @@ The primary goal of this project is to develop an interactive chatbot that can:
 - **Python-dotenv** (Environment variable management)
 
 ## How to Run
-### 1️⃣ Install Dependencies
+1️⃣ Install Dependencies
 Ensure you have Python installed. Then, install the required packages:
-```bash
 pip install -r requirements.txt
 
-### 2️⃣ Set Up Environment Variables
+2️⃣ Set Up Environment Variables
 Create a .env file in the project directory and add your Groq API key:
 GROQ_API_KEY=your_api_key_here
 
-### 3️⃣ Run the Application
+3️⃣ Run the Application
 Start the chatbot by running:
 streamlit run LangChain - Chat with search_App.py
 
-### 4️⃣ Interact with the Chatbot
+4️⃣ Interact with the Chatbot
 - Enter your Groq API key in the sidebar.
 - Type queries in the chat input.
 - Receive responses enriched with search results.
